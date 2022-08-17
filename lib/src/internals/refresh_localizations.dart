@@ -80,7 +80,7 @@ class RefreshLocalizations {
     'sv': SvRefreshString(),
     'pt': PtRefreshString(),
     'ko': KrRefreshString(),
-    'ar':ArRefreshString()
+    'ar': ArRefreshString(),
   };
 
   RefreshString? get currentLocalization {
@@ -640,35 +640,35 @@ class KrRefreshString implements RefreshString {
 
 class ArRefreshString implements RefreshString {
   @override
-  String? canLoadingText = "اسحب لتحميل المزيد";
+  String? canLoadingText = "حرر لمزيد من النتائج";
 
   @override
-  String? canRefreshText = "اسحب للتحديث";
+  String? canRefreshText = "حرر للتحديث";
 
   @override
-  String? canTwoLevelText = "حرر للدخول الى المستوى الثاني";
+  String? canTwoLevelText = "حرر للدخول للمستوى الثاني";
 
   @override
-  String? idleLoadingText = "اسحب للأعلى لتحميل المزيد";
+  String? idleLoadingText = "اسحب للأسفل لمزيد من النتائج";
 
   @override
-  String? idleRefreshText = "اسحب للأسفل للتحديث";
+  String? idleRefreshText = "اسحب للأسفل لتحديث النتائج";
 
   @override
-  String? loadFailedText = "فشل في التحميل";
+  String? loadFailedText = "فشل التحميل";
 
   @override
-  String? loadingText = "تحميل…";
+  String? loadingText = "جار التحميل...";
 
   @override
-  String? noMoreText = "لم يعد يوجد بيانات";
+  String? noMoreText = "لا مزيد من النتائج";
 
   @override
-  String? refreshCompleteText = "انتهى التحديث";
+  String? refreshCompleteText = "اكتمل التحديث";
 
   @override
-  String? refreshFailedText = "فشل في التحديث";
+  String? refreshFailedText = "فشل التحديث";
 
   @override
-  String? refreshingText = "جاري التحديث…";
+  String? refreshingText = "جار التحديث...";
 }
